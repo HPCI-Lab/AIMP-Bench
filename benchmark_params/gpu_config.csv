@@ -1,0 +1,6 @@
+GPU Type,Max Memory Capacity (GB),Memory Type,Architecture,Max Power (W)
+V100,32,HBM2,Volta,250
+A40,48,GDDR6,Ampere,300
+L40S,48,GDDR6,Ada Lovelace,350
+A100,80,HBM2e,Ampere,300
+RTX8000,48,GDDR6,Quadro,280

@@ -1,0 +1,200 @@
+digraph G {
+rankdir=RL;
+charset="utf-8";
+n1 [label="gabrielepadovani", URL="ensamble_partition_on_gpu_GR0_0gabrielepadovani", shape=house, style=filled, fillcolor="#FED37F"];
+n2 [label="yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_Activityensamble_partition_on_gpu_GR0_0", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann1 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_LabelPID">yProv4ML_Label:PID</TD>
+        <TD align="left">53b01b3e-5ae4-457b-bfc8-edc0d5fb5c6f</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelartifact_uri">yProv4ML_Label:artifact_uri</TD>
+        <TD align="left">scripts/ensamble_partition_on_gpu_0/artifacts_GR0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelexperiment_dir">yProv4ML_Label:experiment_dir</TD>
+        <TD align="left">scripts/ensamble_partition_on_gpu_0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelexperiment_name">yProv4ML_Label:experiment_name</TD>
+        <TD align="left">ensamble_partition_on_gpu_GR0_0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelglobal_rank">yProv4ML_Label:global_rank</TD>
+        <TD align="left">0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellevel">yProv4ML_Label:level</TD>
+        <TD align="left">0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelprovenance_path">yProv4ML_Label:provenance_path</TD>
+        <TD align="left">scripts</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpython_version">yProv4ML_Label:python_version</TD>
+        <TD align="left">3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:08) [Clang 20.1.8 ]</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrun_id">yProv4ML_Label:run_id</TD>
+        <TD align="left">0</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann1 -> n2 [arrowhead=none, style=dashed, color=gray];
+n3 [label="yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0-yProv4ML_Source:std.time", URL="yProv4ML_Activityensamble_partition_on_gpu_GR0_0-yProv4ML_Source:std.time", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann2 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelexecution_end_time">yProv4ML_Label:execution_end_time</TD>
+        <TD align="left">1768920983.886848</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelexecution_start_time">yProv4ML_Label:execution_start_time</TD>
+        <TD align="left">1768920983.599123</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellevel">yProv4ML_Label:level</TD>
+        <TD align="left">1</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann2 -> n3 [arrowhead=none, style=dashed, color=gray];
+n4 [label="yProv4ML_Entity:Original_ensamble_partition_on_gpu.png-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_EntityOriginal_ensamble_partition_on_gpu.png-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann3 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelfile_size_in_mb">yProv4ML_Label:file_size_in_mb</TD>
+        <TD align="left">0.03260326385498047</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellabel">yProv4ML_Label:label</TD>
+        <TD align="left">yProv4ML_Entity:Original_ensamble_partition_on_gpu.png-yProv4ML_Activity:ensamble_partition_on_gpu_G...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpath">yProv4ML_Label:path</TD>
+        <TD align="left">ensamble_partition_on_gpu.png</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrole">yProv4ML_Label:role</TD>
+        <TD align="left">output</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann3 -> n4 [arrowhead=none, style=dashed, color=gray];
+n5 [label="yProv4ML_Entity:ensamble_partition_on_gpu.png-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_Entityensamble_partition_on_gpu.png-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann4 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelfile_size_in_mb">yProv4ML_Label:file_size_in_mb</TD>
+        <TD align="left">0.03260326385498047</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellabel">yProv4ML_Label:label</TD>
+        <TD align="left">yProv4ML_Entity:ensamble_partition_on_gpu.png-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpath">yProv4ML_Label:path</TD>
+        <TD align="left">scripts/ensamble_partition_on_gpu_0/artifacts_GR0/ensamble_partition_on_gpu.png</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrole">yProv4ML_Label:role</TD>
+        <TD align="left">output</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann4 -> n5 [arrowhead=none, style=dashed, color=gray];
+n6 [label="yProv4ML_Entity:Original_requirements.txt-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_EntityOriginal_requirements.txt-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann5 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelfile_size_in_mb">yProv4ML_Label:file_size_in_mb</TD>
+        <TD align="left">6.008148193359375e-05</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellabel">yProv4ML_Label:label</TD>
+        <TD align="left">yProv4ML_Entity:Original_requirements.txt-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpath">yProv4ML_Label:path</TD>
+        <TD align="left">prov/BENCH.C.RTX8000/ml_64_7_None_0/artifacts_GR0/requirements.txt</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrole">yProv4ML_Label:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann5 -> n6 [arrowhead=none, style=dashed, color=gray];
+n7 [label="yProv4ML_Entity:requirements.txt-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_Entityrequirements.txt-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann6 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelfile_size_in_mb">yProv4ML_Label:file_size_in_mb</TD>
+        <TD align="left">6.008148193359375e-05</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellabel">yProv4ML_Label:label</TD>
+        <TD align="left">yProv4ML_Entity:requirements.txt-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpath">yProv4ML_Label:path</TD>
+        <TD align="left">scripts/ensamble_partition_on_gpu_0/artifacts_GR0/./prov/BENCH.C.RTX8000/ml_64_7_None_0/artifacts_GR...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrole">yProv4ML_Label:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann6 -> n7 [arrowhead=none, style=dashed, color=gray];
+n8 [label="yProv4ML_Entity:Original_ensamble_partition_on_gpu.py-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_EntityOriginal_ensamble_partition_on_gpu.py-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann7 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelfile_size_in_mb">yProv4ML_Label:file_size_in_mb</TD>
+        <TD align="left">0.0022211074829101562</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellabel">yProv4ML_Label:label</TD>
+        <TD align="left">yProv4ML_Entity:Original_ensamble_partition_on_gpu.py-yProv4ML_Activity:ensamble_partition_on_gpu_GR...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpath">yProv4ML_Label:path</TD>
+        <TD align="left">plot/ensamble_partition_on_gpu.py</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrole">yProv4ML_Label:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann7 -> n8 [arrowhead=none, style=dashed, color=gray];
+n9 [label="yProv4ML_Entity:ensamble_partition_on_gpu.py-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", URL="yProv4ML_Entityensamble_partition_on_gpu.py-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann8 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4ML_Labelfile_size_in_mb">yProv4ML_Label:file_size_in_mb</TD>
+        <TD align="left">0.0022211074829101562</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labellabel">yProv4ML_Label:label</TD>
+        <TD align="left">yProv4ML_Entity:ensamble_partition_on_gpu.py-yProv4ML_Activity:ensamble_partition_on_gpu_GR0_0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelpath">yProv4ML_Label:path</TD>
+        <TD align="left">scripts/ensamble_partition_on_gpu_0/artifacts_GR0/src/plot/ensamble_partition_on_gpu.py</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4ML_Labelrole">yProv4ML_Label:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann8 -> n9 [arrowhead=none, style=dashed, color=gray];
+b1 [label="", shape=point, color=gray];
+n2 -> b1 [arrowhead=none, label=wasAssociatedWith, fontsize=10.0, color="#FED37F"];
+b1 -> n1 [fontsize=10.0, color="#FED37F"];
+n3 -> n2 [label=wasInformedBy, fontsize=10.0];
+n4 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
+n5 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
+b2 [label="", shape=point, color=gray];
+n5 -> b2 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
+b2 -> n4 [fontsize=10.0];
+n2 -> n6 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+n2 -> n7 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+b3 [label="", shape=point, color=gray];
+n7 -> b3 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
+b3 -> n6 [fontsize=10.0];
+n2 -> n8 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+n2 -> n9 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+b4 [label="", shape=point, color=gray];
+n9 -> b4 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
+b4 -> n8 [fontsize=10.0];
+}

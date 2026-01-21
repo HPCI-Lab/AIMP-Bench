@@ -1,5 +1,4 @@
-data
-prov
-csvs
+*.png
 imgs
-.DS_Store
+prov
+yProv4ML
