@@ -1,4 +1,4 @@
-# FBK Benchmarks
+# AIMP Benchmarks
 
 ![uses](assets/fbk.png)
 
